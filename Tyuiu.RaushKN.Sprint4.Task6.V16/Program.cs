@@ -32,7 +32,11 @@ namespace Tyuiu.RaushKN.Sprint4.Task6.V16
             Console.WriteLine("# РЕЗУЛЬТАТ:                                                              #");
             Console.WriteLine("###########################################################################");
         
-            Console.WriteLine("Элементы массива, длинна которых равна 8 символам: " + res);
+            Console.Write("Элементы массива, длинна которых равна 7 символам: ");
+            for (int i = 0; i < res.Length; i++)
+            {
+                Console.Write(res[i]+ " ");
+            }
             Console.ReadKey();
         }
     }

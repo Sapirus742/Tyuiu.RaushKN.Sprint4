@@ -12,7 +12,7 @@ namespace Tyuiu.RaushKN.Sprint4.Task6.V16.Test
 
             string[] array = { "Автомобиль", "Велосипед", "Самолет", "Поезд", "Трамвай", "Троллейбус", "Метро" };
             string[] res = ds.Calculate(array);
-            string[] wait = { };
+            string[] wait = { "Самолет", "Трамвай" };
 
             CollectionAssert.AreEqual(wait, res);
         }
